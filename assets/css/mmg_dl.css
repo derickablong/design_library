@@ -1,0 +1,132 @@
+.form-table {
+	max-width: 700px;
+	background-color: #fff;
+}
+.form-table * { box-sizing: border-box; }
+.form-table tr {
+	border-bottom: solid 2px #eee;
+	padding-bottom: 20px;
+}
+.form-table th, .form-table h4 {
+	font-size: 13px;
+}
+.form-table th, .form-table td {
+	padding: 30px 20px;
+	margin-bottom: 0;
+}
+.form-table input[type=text] {
+	width: 90%;
+	font-size: 16px;
+}
+.dl-title {
+	font-size: 16px;
+	color: #0073aa;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.dl-group label {
+	display: table;
+	margin-bottom: 6px;
+}
+.dl-table-group { width: 100%; }
+.dl-table-group td {
+	vertical-align: top;
+	padding-top: 10px;
+}
+
+.dl-wrap ul {
+	margin-top: 0;
+	padding-top: 0;
+}
+.dl-wrap img {
+	max-width: 100%;
+	height: auto;
+}
+.dl-wrap #the-list li {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 8px;
+	padding-right: 8px;
+	position: relative;
+	border-right: dotted 2px #eee;
+}
+.filter-table img {
+	max-width: 30px;
+	height: auto;
+}
+.dl-add-new-wrap .notice {
+	max-width: 646px;
+}
+.filter-parent td,
+.filter-parent th {
+	background-color: #eee!important;
+	color: #0085ba;
+}
+.select-wrap select {
+	width: 200px;
+}
+.dl-form-left {
+	float: left;
+	width: 70%;
+	padding-right: 15px;
+}
+.dl-form-right {
+	float: left;
+	width: 30%;
+}
+.dl-filter-image-preview {
+	width: 100%;
+	max-width: 60px;	
+	border: dashed 2px #eee;
+	text-align: center;	
+}
+.dl-filter-image-preview img {
+	max-width: 100%;
+	height: auto;
+}
+.dl-box {
+	float: left;
+	width: 50%;
+	padding: 0 30px;
+	text-align: center;
+}
+.dl-box img {
+	margin-bottom: 10px;
+}
+.dl-box strong {
+	color: #0073aa;
+	font-size: 16px;
+}
+.dl-setting-box * { box-sizing: border-box; }
+.dl-setting-box {
+	max-width: 800px;
+	overflow: hidden;
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+.dl-setting-box label {
+	display: block;
+	padding: 15px;
+	font-size: 18px;
+	line-height: 100%;
+	color: #0073aa;
+	border-bottom: solid 1px #eee;
+}
+.dl-setting-box .dl-grid {
+	height: 200px;
+	width: 100%;
+	overflow-y: scroll;
+	padding: 30px;
+}
+.dl-setting-box .dl-grid img {
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding: 4px;
+	border: solid 2px #eee;
+}
+img.selected { border-color: #0073aa!important; }
+.dl-setting-cta {
+	text-align: right;
+	background-color: transparent!important;
+}
